@@ -1,1 +1,1 @@
-### https://github.com/Maksymnone/rsschool-cv/blob/gh-pages/cv.md
+### https://github.com/Maksymnone/rsschool-cv/
