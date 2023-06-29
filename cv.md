@@ -21,7 +21,9 @@
 
 ## About Me
     Hi,👋 \
-    I'm a trainee/junior frontend developer. I have chosen this path for myself and I am going to become a professional. My main qualities are communication, stress resistance, responsibility, an excellent team player, I am the person you can rely on. See you!
+    I'm a trainee/junior frontend developer. I have chosen this path for myself and I am going to become a professional. 
+    My main qualities are communication, stress resistance, responsibility, an excellent team player,
+    I am the person you can rely on. See you!
 
 ----------
 
