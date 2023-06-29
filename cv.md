@@ -48,4 +48,18 @@ function narcissistic(value) {
     ;
         return value === narcissisticNum;}
 ```
+----
 
+## Courses
+
+- IT Education Academy :FrontEnd Developer (completed)
+- Self-study : JavaScript\FrontEnd Developer (allways in progress :-) )
+- RSSchool: JavaScript\FrontEnd Developer (in progress)
+
+----
+
+## Languages
+
+- Ukraine -native
+- Russian - native
+- English - pre-Intermeiate (A2-B1)
