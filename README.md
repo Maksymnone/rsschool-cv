@@ -1,1 +1,1 @@
-https://Maksymnone.github.io/rsschool-cv/cv
+https://Maksymnone.github.io/rsschool-cv/
