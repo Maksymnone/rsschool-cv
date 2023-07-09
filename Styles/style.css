@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+@import url("./normalize.css");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+  --main-color: teal;
+  --second-color: rgba(0, 128, 128, 0.541);
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.6px;
+  line-height: 23px;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--main-color);
+}
+
+.nav h3 {
+  font-size: 1.6rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 40%;
+  align-items: center;
+}
+
+.nav a,
+.footer__link {
+  color: var(--second-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.nav a:hover {
+  color: var(--main-color);
+}
+
+.main-content {
+  padding: 2rem 10rem;
+}
+
+.about {
+  margin-bottom: 5rem;
+}
+
+.about__name {
+  font-size: 6.2rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+  width: 70%;
+  line-height: 70px;
+  margin: 1rem 0;
+}
+
+.line {
+  border-top: 1px solid black;
+  width: 13%;
+}
+
+.about__position {
+  font-size: 2.5rem;
+  color: var(--second-color);
+  margin-bottom: 10rem;
+}
+.about__discription {
+  font-size: 1.6rem;
+}
+.title {
+  color: var(--second-color);
+  font-size: 2.6rem;
+  margin: 0;
+}
+.discription-text {
+  margin: 1rem 0 0 0;
+  width: 70%;
+}
+
+.topic {
+  opacity: 0.6;
+  font-size: 1.6rem;
+}
+
+.work-exp {
+  margin-bottom: 3rem;
+}
+
+.work-exp__place-company,
+.education_specialty {
+  padding-right: 2rem;
+  border-right: 2px solid black;
+  margin-right: 2rem;
+}
+
+.work-exp__place-title {
+  font-weight: normal;
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.work-exp__list {
+  padding: 0 1.3rem;
+}
+
+.work-exp__list-item {
+  font-size: 1.6rem;
+}
+
+.projects {
+  margin-bottom: 3rem;
+}
+
+.projects-item {
+  font-size: 1.2rem;
+}
+
+.projects-item a {
+  text-decoration: underline;
+  color: black;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  margin-right: 3rem;
+}
+
+.projects li:first-of-type > a {
+  margin-right: 11.5rem;
+}
+
+.projects ul {
+  padding: 0 1.2rem;
+}
+
+.university {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.certificate_self-ed::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url("../assets/img/free-icon-certificate-9358201.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  margin-left: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.sidebar {
+  background-color: var(--main-color);
+  width: 50%;
+}
+
+.avatar {
+  width: 100%;
+  margin: 4rem auto;
+  display: block;
+}
+
+.contacts,
+.expertise,
+.languages {
+  margin-left: 2rem;
+  color: white;
+}
+
+.contacts-list,
+.expertise-list,
+.lang-list {
+  padding: 0;
+  list-style: none;
+}
+
+.aside-title {
+  font-size: 2.2rem;
+  color: white;
+}
+
+.contacts-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.contacts-item,
+.expertise-item {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.phone::before,
+.mail::before,
+.address::before,
+.github::before,
+.linkedIn::before,
+.javascript::before,
+.html::before,
+.CSS::before {
+  content: "";
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background: url("../assets/img/tel.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-right: 1rem;
+}
+
+.mail::before {
+  background-image: url("../assets/img/mail.svg");
+}
+.address {
+  font-size: 1.2rem;
+}
+.address::before {
+  background-image: url("../assets/img/addres.svg");
+}
+
+.github::before {
+  background-image: url("../assets/img/GitHub.svg");
+}
+
+.linkedIn::before {
+  background-image: url("../assets/img/linkedIn.svg");
+  background-size: 90%;
+  margin-left: 0.5rem;
+}
+
+.expertise-item {
+  font-size: 1.4rem;
+}
+
+.javascript::before {
+  background-image: url("../assets/img/java-script.svg");
+}
+.html::before {
+  background-image: url("../assets/img/html.svg");
+}
+
+.CSS::before {
+  background-image: url("../assets/img/css.svg");
+}
+
+.expertise-list span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 0.2rem;
+}
+
+.javascript span:first-of-type {
+  margin-left: 2rem;
+  background-color: white;
+}
+
+.html span:nth-child(1) {
+  margin-left: 4.2rem;
+  background-color: white;
+}
+
+.html span:nth-child(2),
+.CSS span:nth-child(2) {
+  background-color: white;
+}
+
+.CSS span:first-of-type {
+  margin-left: 5.5rem;
+  background-color: white;
+}
+
+.lang-item {
+  font-size: 1.4rem;
+}
+
+/* -----------------Footer styles --------------------- */
+
+.footer-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+  display: block;
+  width: 150px;
+}
+
+.footer-container .footer__link {
+  color: var(--main-color) !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.footer__link > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.footer__link > a::before {
+  content: "";
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background: url("../assets/img/GitHubcopy.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  margin-right: 1rem;
+}
+
+.footer__topic {
+  font-size: 11px;
+}
+
+@media (max-width: 1000px) {
+  .main-content {
+    padding: 2rem 0.5rem;
+  }
+  :root {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
+  .wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .main-content {
+    padding: 2rem;
+  }
+  .about_name {
+    font-size: 4.8rem;
+  }
+  .about__position {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  :root {
+    font-size: 9px;
+  }
+}
