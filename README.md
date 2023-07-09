@@ -1,1 +1,2 @@
-# rsschool-cv
+- https://maksymnone.github.io/rsschool-cv/
+- https://maksymnone.github.io/rsschool-cv/cv
